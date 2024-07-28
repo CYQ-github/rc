@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+    background: fixed url(back.jpg) no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.header {
+    text-align: center;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    text-shadow: 0 0 10px red;
+    padding: 20px 0;
+
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.671);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.brochure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.panel {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    backdrop-filter: blur(10px);
+    color: white;
+    text-shadow: 0 0 10px yellow;
+
+    box-shadow: 0 0 10px 5px rgba(238, 255, 0, 0.212);
+}
+
+.panel h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.panel p, .panel ul {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.panel ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    text-align: left;
+}
+
+/* Different styles for each section */
+.panel-intro {
+    background-color: #ff000022;
+}
+
+.panel-material {
+    background-color: #ffa60022;
+}
+
+.panel-design {
+    background-color: #d9ff0022;
+}
+
+.panel-benefits {
+    background-color: #00ff1522;
+}
+
+.panel-usage {
+    background-color: #ede7f622;
+}
+
+.panel-specs {
+    background-color: #00e1ff22;
+}
+
+.panel-additional {
+    background-color: #6200ff22;
+}
+
+.panel-manufacturer {
+    background-color: #ff007722;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    text-shadow: 0 0 10px red;
+    margin-top: 20px;
+
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.671);
+}
